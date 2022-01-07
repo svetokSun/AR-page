@@ -9,14 +9,13 @@
   </head>
  
   <body>
-    <a-scene embedded arjs>
+    <a-scene embedded arjs class="ar">
       <a-marker preset="hiro">
-        <a-entity 
-           position="0 -3 0"
-           rotation="-60 0 0"
-           text="align: center; width: 10; color: #2AA29F; font: roboto; value: Hello, Tproger">
-        </a-entity>
+        <a-entity position="0 2 -5" rotation="0 45 45" scale="2 2 2"
+        ></a-entity>
       </a-marker>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-box src="image-tracking/nft/trex/1.jpeg" ></a-box>
       <a-entity camera></a-entity>
     </a-scene>
     <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
