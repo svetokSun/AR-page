@@ -25,6 +25,21 @@
          </a-nft>
          <a-entity camera></a-entity>
     </a-scene>
+    <a-scene
+       vr-mode-ui="enabled: false;"
+       renderer="logarithmicDepthBuffer: true;"
+       embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
+         <a-nft
+           type='nft' url='https://github.com/svetokSun/AR-gift/blob/main/image-tracking/nft/trex/1'
+           smooth='true' smoothCount='10' smoothTolerance='0.01' smoothThreshold='5'>
+           <a-entity
+             gltf-model='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf'
+             scale="5 5 5"
+             position="100 100 0"
+           ></a-entity>
+         </a-nft>
+         <a-entity camera></a-entity>
+    </a-scene>
     <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
