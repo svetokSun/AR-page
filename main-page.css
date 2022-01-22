@@ -15,7 +15,7 @@ h1 {
     text-align: center;
 }
 
-.float-block {
+.alert {
     display: inline-block;
     position: absolute;
     width: 80%;
