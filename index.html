@@ -16,7 +16,7 @@
       <div class="description"> Твой квестик начнется с рыжухи! 
         <p>Наведи на нее камеру и следуй подсказкам :)</p>
       </div>
-      <button class="button-next" onclick="MyClick">
+      <button class="button-next">
         <h3>так точно!</h3>
       </button>  
     </div>
@@ -87,12 +87,5 @@
          <a-entity camera></a-entity>
     </a-scene> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <script>
-            let button = document.getElementByClassName('button-next');
-            let fadeout = document.getElementByClassName('alert');
-            button.addEventListener('click', function MyClick() {
-                fadeout.style.display = "none"
-            })
-    </script>
   </body>
 </html>
