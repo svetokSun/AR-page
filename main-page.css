@@ -33,7 +33,7 @@ h1 {
     right: 0;
     left: 0;
 }
-.second-block{
+.second-block {
     display: none;
     position: absolute;
     width: 80%;
@@ -51,8 +51,7 @@ h1 {
     right: 0;
     left: 0;
 }
-
-.button-next, .button-finish{
+.button-next {
     display: inline-block;
     height: inherit;
     width: 10%;
@@ -63,21 +62,3 @@ h1 {
     left: 0;
 }
   
-.ar {
-    display: none;
-    position: absolute;
-    width: 500px;
-    height: 150px;
-    text-align: center; 
-    z-index: index 15;
-    background-color: rgba(255, 255, 255);
-    margin:auto;
-    padding:10px;
-    border-radius:5px;
-    box-shadow: 0px 0px 10px #000;
-    cursor: default;
-    top: 10px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
