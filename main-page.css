@@ -53,12 +53,13 @@ h1 {
 }
 .button-next {
     display: inline-block;
-    height: inherit;
+    height: 70px;
     width: 10%;
     min-width: 70px;
     cursor: pointer;
     border: 1px solid rgb(177, 233, 250);
     right: 0;
     left: 0;
+    background-color: #f6f7d4;
 }
   
